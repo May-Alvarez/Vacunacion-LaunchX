@@ -1,0 +1,11 @@
+.slider{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.slider > img{
+    width: 100%;
+}

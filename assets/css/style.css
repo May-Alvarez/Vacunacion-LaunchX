@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-regular);
+}
+
+@font-face {
+    font-family: "Metropolis Bold";
+    src: url("../fonts/Metropolis-Bold.otf");
+}
+@font-face {
+    font-family: "Metropolis Regular";
+    src: url("../fonts/Metropolis-Regular.otf");
+}
+
+:root{
+    --color-1: #223CA6;
+    --font-bold: "Metropolis Bold";
+    --font-regular: "Metropolis Regular";
+    --color-text: #7D7D7F;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

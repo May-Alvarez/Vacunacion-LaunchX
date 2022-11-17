@@ -1,0 +1,52 @@
+footer{
+    background-color: #ccdfff81;
+    padding: 50px 50px 20px 50px;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vaccine{
+    width: 60%;
+}
+
+.text-footer{
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 13px;
+    width: 200px;
+    line-height: 1.4;
+}
+
+.info-menu > p{
+    color: #112778;
+    font-weight: bold;
+}
+
+.info-menu > ul{
+    margin-top: 15px;
+}
+.info-menu > ul >li{
+    list-style: none;
+    color:var(--color-text);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.credits{
+    padding: 50px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.credits > p{
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 13px;
+}
+.credits > p:nth-child(1){
+    width: 70%;
+}

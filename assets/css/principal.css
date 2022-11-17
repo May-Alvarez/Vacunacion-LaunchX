@@ -1,0 +1,127 @@
+
+.container-text{
+    width: 50%;
+    height: 140vh;
+    float: left;
+    padding: 0 160px 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img{
+    width: 50%;
+    height: 140vh;
+    float: right;
+}
+.container-img > img{
+    width: 100%;
+    height: 100%;
+}
+
+.text-principal > h1{
+    font-family: var(--font-bold);
+    font-size: 55px;
+    color: #112778;
+    letter-spacing: 1.2px;
+}
+
+.text-principal > p{
+    color: var(--color-text);
+    font-weight: 600;
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+.stats{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+}
+
+.img > img{
+    width: 22px;
+    border-radius: 5px;
+    box-shadow: 3px 19px 36px 1px rgba(240,201,147,0.72);
+}
+.img > span{
+    color: #112778;
+    font-size: 14px;
+    font-family: var(--font-bold);
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+.schedule{
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+}
+
+.schedule > img{
+    width: 22px;
+    border-radius: 5px;
+    box-shadow: -4px 11px 50px 0px rgba(0,0,0,0.72);
+}
+.schedule > span{
+    color: #112778;
+    font-size: 14px;
+    font-family: var(--font-bold);
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+/*Div flotante*/
+
+.container-schedule{
+    width: 800px;
+    min-width: 400px;
+    position:absolute;
+    top:115vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 10%;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px 40px;
+    border-radius: 5px;
+    box-shadow: -4px 11px 50px 0px rgba(0,0,0,0.72);
+}
+
+
+.info > img{
+    width: 22px;
+    border-radius: 5px;
+}
+.info > span{
+    color: var(--color-text);
+    font-size: 15px;
+    font-weight: 600;
+    height: 22px;
+    display:inline-block;
+    vertical-align:middle;
+    padding-left: 10px;
+}
+
+.info > p{
+    color: #112778;
+    padding: 10px 10px 0 10px;
+    font-weight: 600;
+}
+.info > a{
+    background-color: var(--color-1);
+    display: inline-block;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 3px 19px 36px -16px rgba(0,0,0,0.72);
+}
